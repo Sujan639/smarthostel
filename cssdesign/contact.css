@@ -1,0 +1,51 @@
+<style>
+.contact-page span {
+  border-bottom-color: #ee3733;
+  border-bottom:1px solid #00bfff;
+}
+.contact-page{
+  border-bottom:1px solid #00bfff;
+}
+.widget-search input[type="search"],
+#contactForm input[type="text"],
+#contactForm textarea,
+#respond input[type="text"],
+#respond textarea, .email {
+    color: #666fb5;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    outline: none;
+    width: 100%;
+    padding: 7px 14px;
+    display: block;
+    margin-bottom: 10px;  
+  transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.widget-search input[type="search"]:focus,
+#contactForm input[type="text"]:focus,
+#contactForm textarea:focus,
+#respond input[type="text"]:focus,
+#respond textarea:focus {
+  border-color: #ddd;
+  box-shadow: 0 0 3px #eee;
+  -o-box-shadow: 0 0 3px #eee;
+  -moz-box-shadow: 0 0 3px #eee;
+    -webkit-box-shadow: 0 0 3px #eee;
+}
+
+.mail_response {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+</style>

@@ -1,0 +1,187 @@
+.navbar-brand img {
+  opacity:0.5;
+}
+.navbar-brand img:hover{
+  opacity:10;
+}
+
+
+
+.navbar-default .navbar-nav > li > a.active, .navbar-default .navbar-nav > li:hover > a {
+  border-bottom: 3px solid;
+  color:00bfff;
+
+}
+
+
+
+.navbar-collapse .navbar-nav  li:hover{
+  transform: scale(2) rotate(360deg);
+  -webkit-transform: scale(2) rotate(360deg);
+
+  
+padding:;
+background-color:#f2f2f2;
+}
+.form-group .btn-primary
+{
+  color: #ffffff;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 2px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 17px 30px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    background: #00bfff;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.contact-details > li > a{
+  color:green;
+  line-height:33px;
+  font-size:12px;
+  margin-left:-36px;
+}
+
+.navbar-header .navbar-brand{
+  font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.navbar{
+  background-color:#fff;}
+  .contact-details li  {
+    float:left;
+  }
+
+ .navbar-nav li a {
+font-family: 'Open Sans', sans-serif;
+color:green;
+    font-size: 20px;}
+
+.navbar-collapse li {
+
+    float: left;
+    border-right:1px solid #bbb;
+    display:inline-block;
+     transition: 1s;
+  color: #ffffff;
+  font-size: ;
+  text-decoration: none;
+  
+  
+
+
+}
+.navbar-collapse{
+    -webkit-animation: mymove 5s infinite; 
+    animation: mymove 5s infinite;
+}
+
+
+@-webkit-keyframes mymove {
+    50% {text-shadow: 10px 20px 30px blue;}
+
+
+
+@keyframes mymove {
+    50% {text-shadow: 10px 20px 30px blue;}
+}
+
+
+</style>
+<style>
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+  background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+  background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+  background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+  background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+  background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+  background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+  color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+  color:#44BCDD;
+}
+
+.social-circle li a {
+   float: right;
+    border-right:1px solid #bbb;
+    background-color:;
+  display:inline-block;
+  position:relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align:center;
+  width: 50px;
+height:
+  font-size:20px;
+}
+.social-circle li i {
+  margin:0;
+  
+  text-align: center;
+}
+.social-circle li{
+  float:right;
+  border-right:1px solid #bbb;
+  line-height:50px;
+  background-color:#D3D3D3;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+  transform: scale(1.15) rotate(360deg);
+  -webkit-transform: scale(1.1) rotate(360deg);
+  -moz-transform: scale(1.1) rotate(360deg);
+  -ms-transform: scale(1.1) rotate(360deg);
+  -o-transform: scale(1.1) rotate(360deg);
+
+}
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+a {
+ background-color:#D3D3D3;   
+}
