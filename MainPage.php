@@ -443,7 +443,7 @@ while($row=mysqli_fetch_assoc($retval))
           <div class="ItemsB inlay-container">
             <div>
               <div class="prod-img-wrap">
-                <a href="singleview.php">
+                <a href="singleview.php?id='.$row['id'].'">
                   <img src="'.$row['Location'].'" class=""style="" />
                 </a>
               </div>
